@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta content="width=device-width, initial-scale=1.0"
+        charset="UTF-8" name="viewport">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.qrcode-0.12.0.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  <title>QRAP</title>
+</head>
+<body>
+  <nav>
+    <div class="nav-wrapper blue lighten-1">
+      <a href="#" class="brand-logo center">QRAP</a>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="card-panel row">
+      <div class="qrcode-input input-field col s12">
+        <input placeholder="Enter text" type="text" 
+               class="qrcode-input__field validate">
+        <label for="qrcode-input__field">QR Code Text</label>
+      </div>
+    </div>
+    <div class="col s12 center-align">
+      <div class="qrcode-display"></div>
+    </div>
+  </div>
+</body>
+</html>

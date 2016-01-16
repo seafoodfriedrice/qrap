@@ -1,0 +1,22 @@
+{
+  "name": "qrap",
+  "description": "",
+  "main": "index.js",
+  "license": "BSD-2-Clause",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap-sass": "bootstrap-sass-official#~3.3.5",
+    "Materialize": "materialize#~0.97.1"
+  },
+  "devDependencies": {}
+}

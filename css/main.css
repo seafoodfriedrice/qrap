@@ -1,0 +1,9 @@
+body {
+  font: 100% Roboto, Arial, sans-serif;
+  background-color: #fbfbfb; }
+
+.container > .card-panel {
+  margin-top: 36px; }
+
+.qrcode-display {
+  margin-top: 48px; }

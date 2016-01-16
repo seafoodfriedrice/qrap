@@ -1,0 +1,15 @@
+$font-stack: Roboto, Arial, sans-serif;
+$background-color: #fbfbfb;
+
+body {
+  font: 100% $font-stack;
+  background-color: $background-color;
+}
+
+.container > .card-panel {
+  margin-top: 36px;
+}
+
+.qrcode-display {
+  margin-top: 48px;
+}
